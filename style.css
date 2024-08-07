@@ -5,9 +5,6 @@
     --cor-de-fundo: #00030C;
 }
 body{ 
-    background-color: var(--cinza-secundario);
-}
-body{ 
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
@@ -15,3 +12,23 @@ body{
     margin: 0%;
     padding: 0%;
 }
+    .principal {
+        background-image: url(img/Background\ .png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .container{ 
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .container{
+        background-color: var(--botao-azul);
+        border-radius: 5px ;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+    }
+    
+    
+    
